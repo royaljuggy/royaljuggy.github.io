@@ -12,6 +12,7 @@ h2 {
 }
 
 p {
+    margin-top: 0;
     background-color: lightblue;
     padding: 16px;
 }
@@ -20,6 +21,7 @@ ul {
     background-color: lightblue;
     padding: 16px;
     padding-left: 32px;
+    margin-top: 0;
 }
 
 .container {
@@ -70,6 +72,12 @@ li {
     display: inline-block;
     margin-top: 16px;
     text-decoration: none;
+    font-weight: bold;
+}
+
+.contact-button:hover {
+    background: blue;
+    color: black;
 }
 
 .email {
@@ -79,4 +87,5 @@ li {
     display: inline-block;
     margin-top: 16px;
     text-decoration: none;
+    font-weight: bold;
 }
