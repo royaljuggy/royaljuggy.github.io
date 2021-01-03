@@ -1,8 +1,82 @@
+body {
+    margin: 0;
+    text-align: justify;
+    line-height: 1.25em;
+}
+
+h2 {
+    margin-top: 0;
+    margin-bottom: 0;
+    background-color: steelblue;
+    padding: 8px 16px;
+}
+
+p {
+    background-color: lightblue;
+    padding: 16px;
+}
+
+ul {
+    background-color: lightblue;
+    padding: 16px;
+    padding-left: 32px;
+}
+
 .container {
     max-width: 1000px;
     margin: 0 auto;
+    display: flex;
 }
 
 .title {
+    margin-top: 0;
+    margin-bottom: 0;
     text-align: center;
+    background-color: steelblue;
+    padding: 48px;
+}
+
+.main-content {
+    margin: 32px 16px;
+}
+
+.sidebar {
+    margin: 32px 16px;
+}
+
+.sidebar > h2 {
+    text-align: center;
+}
+a {
+    color: blue;
+}
+
+a:focus, a:hover {
+    color: magenta;
+}
+
+a:active {
+    color: red;
+}
+
+li {
+    margin: 8px 0;
+}
+
+.contact-button {
+    background: aquamarine;
+    color: black;
+    padding: 16px 25px;
+    display: inline-block;
+    margin-top: 16px;
+    text-decoration: none;
+}
+
+.email {
+    background: lightblue;
+    color: black;
+    padding: 16px 25px;
+    display: inline-block;
+    margin: 16px;
+    text-decoration: none;
 }
