@@ -17,13 +17,21 @@ p {
     padding: 16px;
 }
 
-ul {
+.bullet-points {
     background-color: lightblue;
     padding: 16px;
     padding-left: 32px;
     margin-top: 0;
 }
 
+.nested-points {
+    padding: 6px 10px;
+    margin-left: 10px;
+}
+
+.nested-points li {
+    margin-bottom: 0;
+}
 .container {
     max-width: 1000px;
     margin: 0 auto;
@@ -76,7 +84,8 @@ li {
     font-weight: bold;
 }
 
-.contact-button:hover {
+.contact-button:hover,
+.contact-button:focus {
     background: blue;
     color: black;
 }
