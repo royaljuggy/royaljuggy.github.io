@@ -44,6 +44,7 @@ ul {
 
 .sidebar {
     margin: 32px 16px;
+    width: 27%;
 }
 
 .sidebar > h2 {
@@ -88,4 +89,9 @@ li {
     margin-top: 16px;
     text-decoration: none;
     font-weight: bold;
+}
+
+.personal-image {
+    max-width: 100%;
+    max-height: 100%;
 }
