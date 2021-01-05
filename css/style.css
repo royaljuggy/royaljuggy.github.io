@@ -2,19 +2,20 @@ body {
     margin: 0;
     text-align: justify;
     line-height: 1.25em;
-}
-
-h2 {
-    margin-top: 0;
-    margin-bottom: 0;
-    background-color: steelblue;
-    padding: 8px 16px;
+    font-family: Helvetica, sans-serif
 }
 
 p {
     margin-top: 0;
     background-color: lightblue;
     padding: 16px;
+}
+
+.block-header {
+    margin-top: 0;
+    margin-bottom: 0;
+    background-color: steelblue;
+    padding: 12px 16px;
 }
 
 .bullet-points {
@@ -52,12 +53,13 @@ p {
 
 .sidebar {
     margin: 32px 16px;
-    width: 27%;
+    max-width: 280px;
 }
 
 .sidebar > h2 {
     text-align: center;
 }
+
 a {
     color: blue;
 }
@@ -75,18 +77,20 @@ li {
 }
 
 .contact-button {
-    background: skyblue;
+    background: rgb(78, 185, 228);
     color: black;
     padding: 16px 25px;
     display: inline-block;
-    margin-top: 16px;
     text-decoration: none;
     font-weight: bold;
+    font-size: 20px;
+    margin-bottom: 16px;
+    border-radius: 5px;
 }
 
 .contact-button:hover,
 .contact-button:focus {
-    background: blue;
+    background: rgb(35, 142, 184);
     color: black;
 }
 
@@ -103,4 +107,8 @@ li {
 .personal-image {
     max-width: 100%;
     max-height: 100%;
+}
+
+.LI-profile-badge {
+    max-width: inherit;
 }
