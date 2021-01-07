@@ -112,3 +112,9 @@ li {
 .LI-profile-badge {
     max-width: inherit;
 }
+
+@media (max-width: 700px) {
+    .container {
+        flex-direction: column;
+    }
+}
