@@ -1,0 +1,4 @@
+cd {into React app directory}
+npm run deploy
+
+done!
