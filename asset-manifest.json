@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/static/css/main.de332766.css",
+    "main.js": "/static/js/main.ae99b702.js",
+    "static/media/jacob.png": "/static/media/jacob.e30245fd3966c2cee946.png",
+    "static/media/icon.png": "/static/media/icon.dd75356a421c3cb20993.png",
+    "static/media/JAN2022.pdf": "/static/media/JAN2022.56db616602431f39e217.pdf",
+    "static/media/happy-emilia.jpg": "/static/media/happy-emilia.29cbee1aa016d8e83c85.jpg",
+    "index.html": "/index.html",
+    "main.de332766.css.map": "/static/css/main.de332766.css.map",
+    "main.ae99b702.js.map": "/static/js/main.ae99b702.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.de332766.css",
+    "static/js/main.ae99b702.js"
+  ]
+}
