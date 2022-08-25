@@ -1,0 +1,6 @@
+cd {into React app directory}
+npm run deploy
+
+done!
+
+Reference: https://github.com/gitname/react-gh-pages
