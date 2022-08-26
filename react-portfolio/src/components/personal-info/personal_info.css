@@ -1,12 +1,16 @@
-.experience__container {
+.personal_info__container > div h3 {
+    text-align: center;
+    margin-bottom: 2rem;
+    color: var(--color-primary);
+}
+
+.personal_info__container {
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1fr;
     gap: 2rem;
     min-height: 0;
     min-width: 0;
-}
-
-.experience__container > div {
+    width: 60%;
     background: var(--color-bg-variant);
     padding: 2.4rem 5rem;
     border-radius: 2rem;
@@ -14,34 +18,31 @@
     transition: var(--transition);
 }
 
-.experience__container > div:hover {
+.personal_info__container:hover {
     background: transparent;
     border-color: var(--color-primary-variant);
     cursor: default;
 }
 
-.experience__container > div h3 {
-    text-align: center;
-    margin-bottom: 2rem;
-    color: var(--color-primary);
-}
-
-.experience__content {
-    display: grid;
+.personal_info__content {
     grid-template-columns: 1fr 1fr;
     row-gap: 2rem;
 }
 
-.experience__details {
+.personal_info__details {
     display: flex;
     gap: 1rem;
     overflow: hidden;  /* NEW */
     min-width: 0;
 }
 
-.experience__details-icon {
+.personal_info__details-icon {
     margin-top: 6px;
     color: var(--color-primary);
+}
+
+.bullet-points {
+    list-style: circle inside;
 }
 
 .text {
@@ -49,18 +50,20 @@
     text-align: center;
 }
 
-@media screen and (max-width: 1024px) {
-    .experience__container {
-        grid-template-columns: 1fr;
-    }
+.personal_info__list {
+    list-style: inside;
+    padding-left: 1rem;
+}
 
-    .experience__container > div {
+@media screen and (max-width: 1024px) {
+    .personal_info__container {
+        grid-template-columns: 1fr;
         width: 80%;
         padding: 2rem;
         margin: 0 auto;
     }
 
-    .experience__content {
+    .personal_info__content {
         padding: 1rem;
     }
 }
@@ -69,11 +72,11 @@
 /* ==== Media Queries (Small Devices; Phones) */
 
 @media screen and (max-width: 600px) {
-    .experience__container {
+    .personal_info__container {
         gap: 1rem;
     }
 
-    .experience__container > div {
+    .personal_info__container > div {
         width: 100%;
         padding: 2rem 1rem;
     }

@@ -5,7 +5,7 @@ import './services.css'
 const ServicesListItem = (item) => {
   return (
     <li>
-        <BiCheck className="service__list-icon"/>
+        <BiCheck className="service__list-icon" size={50}/>
         <p>{item.text}</p>
     </li>
   )

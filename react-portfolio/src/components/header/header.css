@@ -37,7 +37,13 @@ header {
     background-color: var(--color-primary);
 }
 
+.socials-inline {
+    margin-top: 1rem;
+}
 
+.socials-inline a {
+    padding: 0.5rem;
+}
 /* ==== Photo of Me */
 .me {
     background: linear-gradient(var(--color-primary), transparent);

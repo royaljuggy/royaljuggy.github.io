@@ -15,18 +15,18 @@ import 'swiper/css/pagination';
 const data = [
   {
     avatar: AVATAR1,
-    name: 'Emilia',
-    review: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe provident assumenda cum facilis harum magnam ut, fuga pariatur nesciunt neque.",
+    name: 'YOU!',
+    review: "Want to be my first? Let's talk!",
   },
   {
     avatar: AVATAR1,
-    name: 'Emilia',
-    review: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe provident assumenda cum facilis harum magnam ut, fuga pariatur nesciunt neque.",
+    name: 'YOU!',
+    review: "Want to be my first? Let's talk!",
   },
   {
     avatar: AVATAR1,
-    name: 'Emilia',
-    review: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe provident assumenda cum facilis harum magnam ut, fuga pariatur nesciunt neque.",
+    name: 'YOU!',
+    review: "Want to be my first? Let's talk!",
   }
 ]
 

@@ -6,27 +6,32 @@ const data = [
   {
     id: 1,
     image: IMG1,
-    title: 'DUMMY TITLE',
-    URL: "https:://github.com",
-    demo: "https:://dribbble.com/Alien_pixels",
+    title: 'Math Solver',
+    URL: "https://github.com/royaljuggy/math-solver",
+    demo: "https://github.com/royaljuggy/math-solver",
+    secondBtnText: "Link to Repo"
   },
   {
     id: 2,
     image: IMG1,
-    title: 'DUMMY TITLE2',
-    URL: "https:://github.com",
-    demo: "https:://dribbble.com/Alien_pixels",
+    title: 'IDS Enterprise - Open Source Contribution',
+    URL: "https://github.com/royaljuggy/ids-enterprise",
+    demo: "https://github.com/infor-design/enterprise/commit/bed3d61fd36544c37c020d173e2b0d9f0a8c7328",
+    secondBtnText: "Merged Commit",
   },
   {
     id: 3,
     image: IMG1,
-    title: 'DUMMY TITLE3',
-    URL: "https:://github.com",
-    demo: "https:://dribbble.com/Alien_pixels",
-  }
+    title: 'Diary Web Application',
+    URL: "https://github.com/royaljuggy/diary-app",
+    demo: "https://royaljuggy.github.io/diary-app",
+  },
 ]
 
 const Portfolio = () => {
+  function btnText(secondBtnText) {
+    return secondBtnText !== undefined ? secondBtnText : "Live Demo";
+  }
   return (
     <section id="portfolio">
       <h5>My Recent Work</h5>
@@ -35,7 +40,7 @@ const Portfolio = () => {
 
       <div className="container portfolio__container">
         {
-          data.map(({id, image, title, URL, demo}) => {
+          data.map(({id, image, title, URL, demo, secondBtnText}) => {
             return (
               <article key={id} className="portfolio__item">
                 <div className="portfolio__item-image">
@@ -43,8 +48,8 @@ const Portfolio = () => {
                 </div>
                 <h3>{title}</h3>
                 <div className="portfolio__item-cta">
-                  <a href={URL} className="btn" target="_blank">Github</a>
-                  <a href={demo} className="btn btn-primary" target="_blank">Live Demo</a>
+                  <a href={URL} className="btn">Github</a>
+                  <a href={demo} className="btn btn-primary">{btnText(secondBtnText)}</a>
                 </div>
               </article>
             )

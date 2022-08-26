@@ -8,7 +8,7 @@
     background: var(--color-bg-variant);
     border-radius: 0 0 2rem 2rem;
     border: 1px solid var(--color-primary);
-    height: fit-content;
+    height: 100%;
     transition: var(--transition);
 }
 
@@ -26,6 +26,13 @@
 }
 
 .service__head h3 {
+    color: var(--color-bg);
+    font-size: 1rem;
+    text-align: center;
+    text-decoration: underline;
+}
+
+.service__head h4 {
     color: var(--color-bg);
     font-size: 1rem;
     text-align: center;
@@ -48,6 +55,11 @@
 
 .service__list p {
     font-size: 0.9rem;
+}
+
+.blurb {
+    padding: 1.6rem;
+    padding-bottom: 0;
 }
 
 /* ==== Media Queries (Medium Devices) */

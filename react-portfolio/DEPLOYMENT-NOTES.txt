@@ -4,3 +4,4 @@ npm run deploy
 done!
 
 Reference: https://github.com/gitname/react-gh-pages
+"deploy": "gh-pages -b main -d build"
