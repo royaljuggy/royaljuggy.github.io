@@ -1,0 +1,83 @@
+.personal_info__container > div h3 {
+    text-align: center;
+    margin-bottom: 2rem;
+    color: var(--color-primary);
+}
+
+.personal_info__container {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 2rem;
+    min-height: 0;
+    min-width: 0;
+    width: 60%;
+    background: var(--color-bg-variant);
+    padding: 2.4rem 5rem;
+    border-radius: 2rem;
+    border: 1px solid transparent;
+    transition: var(--transition);
+}
+
+.personal_info__container:hover {
+    background: transparent;
+    border-color: var(--color-primary-variant);
+    cursor: default;
+}
+
+.personal_info__content {
+    grid-template-columns: 1fr 1fr;
+    row-gap: 2rem;
+}
+
+.personal_info__details {
+    display: flex;
+    gap: 1rem;
+    overflow: hidden;  /* NEW */
+    min-width: 0;
+}
+
+.personal_info__details-icon {
+    margin-top: 6px;
+    color: var(--color-primary);
+}
+
+.bullet-points {
+    list-style: circle inside;
+}
+
+.text {
+    padding: 1rem 2rem;
+    text-align: center;
+}
+
+.personal_info__list {
+    list-style: inside;
+    padding-left: 1rem;
+}
+
+@media screen and (max-width: 1024px) {
+    .personal_info__container {
+        grid-template-columns: 1fr;
+        width: 80%;
+        padding: 2rem;
+        margin: 0 auto;
+    }
+
+    .personal_info__content {
+        padding: 1rem;
+    }
+}
+
+
+/* ==== Media Queries (Small Devices; Phones) */
+
+@media screen and (max-width: 600px) {
+    .personal_info__container {
+        gap: 1rem;
+    }
+
+    .personal_info__container > div {
+        width: 100%;
+        padding: 2rem 1rem;
+    }
+}
