@@ -13,7 +13,7 @@ const Navbar = () => {
     <nav className="sticky top-0 z-50 bg-[#fafafa]/80 backdrop-blur-md border-b border-gray-100">
       <div className="max-w-4xl mx-auto px-6 py-4 flex justify-between items-center">
         <NavLink to="/" className="text-xl font-bold tracking-tight">
-          JD<span className="text-blue-600">.</span>
+          JM<span className="text-blue-600">.</span>
         </NavLink>
         <div className="flex gap-8">
           {links.map((link) => (

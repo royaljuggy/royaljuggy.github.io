@@ -41,4 +41,4 @@ The website is a Single Page Application (SPA) with the following tabs:
 Any push to the `main` branch will trigger the GitHub Actions workflow defined in `.github/workflows/deploy.yml`. The site will be built and deployed to the `gh-pages` branch automatically.
 
 ---
-*Last Updated: February 3, 2026*
+*Last Updated: February 3, 2026 (Updated personal details and site branding)*

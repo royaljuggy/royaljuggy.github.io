@@ -20,12 +20,12 @@ const Home = () => {
         
         <div className="space-y-4 text-center md:text-left">
           <h1 className="text-4xl font-extrabold tracking-tight md:text-5xl">
-            Hi, I'm <span className="text-blue-600">Jacob Doe</span>
+            Hi, I'm <span className="text-blue-600">Jacob Meksavanh</span>
           </h1>
           <p className="text-xl text-gray-600 max-w-lg">
-            A passionate Software Engineer dedicated to building elegant, 
-            user-centric solutions. I specialize in modern web technologies 
-            and love turning complex problems into simple, beautiful experiences.
+            Software Engineer and University of Waterloo graduate (Honours Bachelor of Computer Science). 
+            I am dedicated to building elegant, user-centric solutions and turning complex 
+            problems into simple, beautiful experiences.
           </p>
           
           <div className="flex justify-center md:justify-start gap-4">
