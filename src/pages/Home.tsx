@@ -1,5 +1,6 @@
 import { Github, Linkedin, Mail, ExternalLink } from 'lucide-react';
 import { motion } from 'framer-motion';
+import profileImg from '../assets/images/jacob-2025-cropped.png';
 
 const Home = () => {
   return (
@@ -12,8 +13,8 @@ const Home = () => {
           className="w-48 h-48 rounded-2xl overflow-hidden bg-gray-200 flex-shrink-0"
         >
           <img 
-            src="https://via.placeholder.com/200" 
-            alt="Profile" 
+            src={profileImg} 
+            alt="Jacob Meksavanh" 
             className="w-full h-full object-cover"
           />
         </motion.div>

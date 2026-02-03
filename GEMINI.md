@@ -21,7 +21,7 @@ The website is a Single Page Application (SPA) with the following tabs:
 ### Home Page (`src/pages/Home.tsx`)
 - Update the name in the `h1` tag.
 - Replace the bio text in the `<p>` tag.
-- Replace the `src` of the profile image placeholder.
+- To update the profile picture: Add the new image to `src/assets/images/`, import it at the top of `Home.tsx`, and update the `src` attribute of the profile image.
 - Update social links in the `href` attributes of the icon buttons.
 
 ### Experience (`src/pages/Experience.tsx`)
@@ -35,10 +35,10 @@ The website is a Single Page Application (SPA) with the following tabs:
 ### Hobbies (`src/pages/Hobbies.tsx`)
 - Edit the sections within the `Hobbies` component.
 - Each section follows a similar pattern with an icon, heading, and description.
-- Replace placeholder image URLs (`https://via.placeholder.com/...`) with actual image paths or URLs.
+- Place hobby images in `src/assets/images/` and import them as needed.
 
 ## Deployment
 Any push to the `main` branch will trigger the GitHub Actions workflow defined in `.github/workflows/deploy.yml`. The site will be built and deployed to the `gh-pages` branch automatically.
 
 ---
-*Last Updated: February 3, 2026 (Updated personal details and site branding)*
+*Last Updated: February 3, 2026 (Organized image assets and updated profile picture)*
