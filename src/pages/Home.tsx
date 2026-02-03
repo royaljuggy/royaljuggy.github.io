@@ -29,13 +29,13 @@ const Home = () => {
           </p>
           
           <div className="flex justify-center md:justify-start gap-4">
-            <a href="https://github.com" target="_blank" rel="noopener noreferrer" className="p-2 rounded-full bg-gray-100 hover:bg-gray-200 transition-colors">
+            <a href="https://github.com/royaljuggy" target="_blank" rel="noopener noreferrer" className="p-2 rounded-full bg-gray-100 hover:bg-gray-200 transition-colors">
               <Github className="w-6 h-6" />
             </a>
-            <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer" className="p-2 rounded-full bg-gray-100 hover:bg-gray-200 transition-colors">
+            <a href="https://www.linkedin.com/in/jacob-meksavanh/" target="_blank" rel="noopener noreferrer" className="p-2 rounded-full bg-gray-100 hover:bg-gray-200 transition-colors">
               <Linkedin className="w-6 h-6" />
             </a>
-            <a href="mailto:hello@example.com" className="p-2 rounded-full bg-gray-100 hover:bg-gray-200 transition-colors">
+            <a href="mailto:jacob.meksavanh@gmail.com" className="p-2 rounded-full bg-gray-100 hover:bg-gray-200 transition-colors">
               <Mail className="w-6 h-6" />
             </a>
           </div>
@@ -45,15 +45,15 @@ const Home = () => {
       <section className="grid grid-cols-1 md:grid-cols-3 gap-6 pt-12">
         <div className="p-6 rounded-2xl border border-gray-100 bg-white shadow-sm hover:shadow-md transition-shadow">
           <h3 className="font-bold text-lg mb-2">Technical Skills</h3>
-          <p className="text-sm text-gray-500">React, TypeScript, Node.js, and more.</p>
+          <p className="text-sm text-gray-500">Full-stack development, modern web frameworks, and cloud-native architecture.</p>
         </div>
         <div className="p-6 rounded-2xl border border-gray-100 bg-white shadow-sm hover:shadow-md transition-shadow">
-          <h3 className="font-bold text-lg mb-2">Philosophy</h3>
-          <p className="text-sm text-gray-500">Clean code, simple UX, and robust architecture.</p>
+          <h3 className="font-bold text-lg mb-2">Education</h3>
+          <p className="text-sm text-gray-500">BCS Honours, University of Waterloo. Focused on software engineering and algorithms.</p>
         </div>
         <div className="p-6 rounded-2xl border border-gray-100 bg-white shadow-sm hover:shadow-md transition-shadow">
-          <h3 className="font-bold text-lg mb-2">Availability</h3>
-          <p className="text-sm text-gray-500">Open for full-time roles starting Summer 2026.</p>
+          <h3 className="font-bold text-lg mb-2">Current Interests</h3>
+          <p className="text-sm text-gray-500">Exploring AI-driven development, distributed systems, and creative photography.</p>
         </div>
       </section>
       
@@ -63,7 +63,7 @@ const Home = () => {
           <p className="text-blue-100">Let's build something amazing together.</p>
         </div>
         <a 
-          href="mailto:hello@example.com"
+          href="mailto:jacob.meksavanh@gmail.com"
           className="px-6 py-3 bg-white text-blue-600 rounded-xl font-bold hover:bg-blue-50 transition-colors flex items-center gap-2"
         >
           Get in Touch <ExternalLink className="w-4 h-4" />

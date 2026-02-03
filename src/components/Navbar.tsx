@@ -1,5 +1,6 @@
 import { NavLink } from 'react-router-dom';
 import { motion } from 'framer-motion';
+import { Home as HomeIcon } from 'lucide-react';
 
 const Navbar = () => {
   const links = [
@@ -12,8 +13,8 @@ const Navbar = () => {
   return (
     <nav className="sticky top-0 z-50 bg-[#fafafa]/80 backdrop-blur-md border-b border-gray-100">
       <div className="max-w-4xl mx-auto px-6 py-4 flex justify-between items-center">
-        <NavLink to="/" className="text-xl font-bold tracking-tight">
-          JM<span className="text-blue-600">.</span>
+        <NavLink to="/" className="text-blue-600 hover:text-blue-700 transition-colors">
+          <HomeIcon className="w-6 h-6" />
         </NavLink>
         <div className="flex gap-8">
           {links.map((link) => (
