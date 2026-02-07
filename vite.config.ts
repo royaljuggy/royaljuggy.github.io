@@ -4,5 +4,5 @@ import react from '@vitejs/plugin-react'
 // https://vite.dev/config/
 export default defineConfig({
   plugins: [react()],
-  base: '/personal-website-2026/', // Updated to match repository name for GitHub Pages
+  base: '/', // Set to '/' for root domain hosting (royaljuggy.github.io)
 })
