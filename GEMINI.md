@@ -11,34 +11,39 @@ This document tracks the structure and update instructions for your personal por
 
 ## Site Structure
 The website is a Single Page Application (SPA) with the following tabs:
-1.  **Home (`/`):** Introduction, profile picture, social links, and recruiter-focused summary.
-2.  **Experience (`/experience`):** Professional timeline with tenure, location, tech stack, and duties.
-3.  **Projects (`/projects`):** Grid display of personal works with links and tags.
-4.  **Hobbies (`/hobbies`):** A narrative section with photos and personal stories.
+1.  **Home (`/`):** Personal intro, professional summary (Geotab/Tokyo), academic achievements (Dean's Honours, Japanese Certificate), and a comprehensive, categorized Skills & Expertise section.
+2.  **Experience (`/experience`):** Detailed career timeline (Geotab FT, Japan Internship, Waterloo internships, TA roles).
+3.  **Projects (`/projects`):** Featured media/travel blogs and Waterloo coursework with real Unsplash imagery.
+4.  **Hobbies (`/hobbies`):** Interactive Bento Grid with modals for Anime & Shows, K-pop (NMIXX), Gaming (CS:GO), Sports (Curling), and Awards. Includes a Spotify "Tokyo" playlist preview.
+
+## Recent Updates (Feb 7, 2026)
+- **Home Page Overhaul:** Added Dean's Honours List, Certificate in Japanese Language II (UWaterloo), and a categorized skills section (AI tools, Root-Cause Troubleshooting).
+- **Full Career Sync:** Integrated 8+ roles from Resume and LinkedIn into the Experience timeline.
+- **Projects Revamp:** Featured "Anime & Media Blog" and "Japan Internship Blog" (8 months) with correct links and royalty-free imagery.
+- **Interactive Hobbies:** Built a modern Bento Grid with `framer-motion` modals and Spotify embeds.
+- **Performance:** Optimized rendering to remove double-renders and UI "blinking" during transitions.
+- **Tone & Style:** Reworded all content to a natural, simple typing style using semi-colons (;) instead of em-dashes.
 
 ## How to Update Content
 
 ### Home Page (`src/pages/Home.tsx`)
-- Update the name in the `h1` tag.
-- Replace the bio text in the `<p>` tag.
-- To update the profile picture: Add the new image to `src/assets/images/`, import it at the top of `Home.tsx`, and update the `src` attribute of the profile image.
-- Update social links in the `href` attributes of the icon buttons.
+- Update the bio text in the `<p>` tags within the first `section`.
+- Modify the Skills & Expertise lists in the dedicated skills `section`.
 
 ### Experience (`src/pages/Experience.tsx`)
 - Modify the `experiences` array at the top of the file.
-- Each object should have: `company`, `role`, `tenure`, `location`, `stack` (array), and `duties` (array).
+- Add/Remove roles as needed; the UI handles the timeline rendering automatically.
 
 ### Projects (`src/pages/Projects.tsx`)
 - Modify the `projects` array.
-- Each object should have: `title`, `description`, `image`, `tags` (array), `github` link, and `demo` link.
+- Use Unsplash URLs for high-quality, royalty-free imagery.
 
 ### Hobbies (`src/pages/Hobbies.tsx`)
-- Edit the sections within the `Hobbies` component.
-- Each section follows a similar pattern with an icon, heading, and description.
-- Place hobby images in `src/assets/images/` and import them as needed.
+- Edit the `hobbies` array. 
+- Each object supports `details` (array for modal), `tags`, `stat`, and `badge`.
 
 ## Deployment
 Any push to the `main` branch will trigger the GitHub Actions workflow defined in `.github/workflows/deploy.yml`. The site will be built and deployed to the `gh-pages` branch automatically.
 
 ---
-*Last Updated: February 3, 2026 (Organized image assets and updated profile picture)*
+*Last Updated: February 7, 2026 (Final comprehensive site-wide update)*
