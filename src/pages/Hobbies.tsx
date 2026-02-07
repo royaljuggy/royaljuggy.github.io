@@ -1,5 +1,5 @@
 import { useState } from 'react';
-import { Trophy, Music, Gamepad2, Tv, Award, Play, Star, Heart, Flame, X, Info, Library } from 'lucide-react';
+import { Trophy, Music, Gamepad2, Tv, Award, Play, Star, Heart, X, Info, Library } from 'lucide-react';
 import { motion, AnimatePresence } from 'framer-motion';
 
 const Hobbies = () => {
