@@ -17,6 +17,7 @@ The website is a Single Page Application (SPA) with the following tabs:
 4.  **Hobbies (`/hobbies`):** Interactive Bento Grid with modals for Anime & Shows, K-pop (NMIXX), Gaming (CS:GO), Sports (Curling), and Awards. Includes a Spotify "Tokyo" playlist preview.
 
 ## Recent Updates (Feb 8, 2026)
+- **Projects Refinement:** Moved "Personal Portfolio 2026" to the second position and updated its demo link to point to the GitHub repository.
 - **Portfolio Project Addition:** Added "Personal Portfolio 2026" to the Projects page, featuring the site's own tech stack and repository links.
 - **Favicon Update:** Changed the website favicon from the default Vite logo to a custom blue heart SVG.
 - **Home Page Overhaul:** Added Dean's Honours List, Certificate in Japanese Language II (UWaterloo), and a categorized skills section (AI tools, Root-Cause Troubleshooting).
@@ -48,4 +49,4 @@ The website is a Single Page Application (SPA) with the following tabs:
 Any push to the `main` branch will trigger the GitHub Actions workflow defined in `.github/workflows/deploy.yml`. The site will be built and deployed to the `gh-pages` branch automatically.
 
 ---
-*Last Updated: February 8, 2026 (Added Portfolio project to Projects page)*
+*Last Updated: February 8, 2026 (Reordered projects and updated portfolio link)*

@@ -2,20 +2,20 @@ import { Github, ExternalLink, Code2 } from 'lucide-react';
 
 const projects = [
   {
-    title: 'Personal Portfolio 2026',
-    description: 'A modern, responsive personal portfolio built with React 19 and Tailwind CSS v4. Features a custom Bento Grid, interactive timeline, and seamless animations.',
-    image: 'https://images.unsplash.com/photo-1517694712202-14dd9538aa97?auto=format&fit=crop&q=80&w=600&h=400',
-    tags: ['React 19', 'Tailwind CSS v4', 'Vite', 'Framer Motion'],
-    github: 'https://github.com/royaljuggy/personal-website-2026',
-    demo: 'https://royaljuggy.github.io',
-  },
-  {
     title: 'Anime & Media Blog',
     description: 'A passion project dedicated to in-depth, human-written reviews and analysis of anime and media. Features detailed breakdowns of story, animation, and music.',
     image: 'https://images.unsplash.com/photo-1528360983277-13d401cdc186?auto=format&fit=crop&q=80&w=600&h=400',
     tags: ['Markdown', 'GitHub', 'Writing', 'Media Analysis'],
     github: 'https://github.com/royaljuggy/blogs',
     demo: 'https://royaljuggy.github.io/blogs/',
+  },
+  {
+    title: 'Personal Portfolio 2026',
+    description: 'A modern, responsive personal portfolio built with React 19 and Tailwind CSS v4. Features a custom Bento Grid, interactive timeline, and seamless animations.',
+    image: 'https://images.unsplash.com/photo-1517694712202-14dd9538aa97?auto=format&fit=crop&q=80&w=600&h=400',
+    tags: ['React 19', 'Tailwind CSS v4', 'Vite', 'Framer Motion'],
+    github: 'https://github.com/royaljuggy/personal-website-2026',
+    demo: 'https://github.com/royaljuggy/personal-website-2026',
   },
   {
     title: 'Japan Internship Blog',
