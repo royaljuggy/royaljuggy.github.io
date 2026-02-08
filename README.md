@@ -1,73 +1,63 @@
-# React + TypeScript + Vite
+# Jacob Meksavanh | Personal Portfolio 2026
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern, responsive personal portfolio website built with React 19, Vite, and Tailwind CSS v4. This site showcases my professional experience, academic achievements, projects, and personal hobbies through an interactive and visually polished interface.
 
-Currently, two official plugins are available:
+## 🚀 Live Site
+The site is automatically deployed to GitHub Pages and can be accessed at:
+[royaljuggy.github.io](https://royaljuggy.github.io)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🛠️ Tech Stack
+- **Frontend Framework:** React 19 (Vite)
+- **Styling:** Tailwind CSS v4 (CSS-based configuration)
+- **Animations:** Framer Motion
+- **Icons:** Lucide React
+- **Deployment:** GitHub Actions
 
-## React Compiler
+## 📂 Project Structure
+The website is a Single Page Application (SPA) with the following sections:
+- **Home:** Personal introduction, academic honors, and categorized skills.
+- **Experience:** Interactive career timeline including full-time roles and internships.
+- **Projects:** Featured work and blogs with rich imagery.
+- **Hobbies:** Modern Bento Grid with modals for personal interests and Spotify embeds.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## 🛠️ Development & Setup
 
-## Expanding the ESLint configuration
+### Prerequisites
+- [Node.js](https://nodejs.org/) (Latest LTS recommended)
+- npm or yarn
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+### Installation
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/royaljuggy/personal-website-2026.git
+   cd personal-website-2026
+   ```
 
-```js
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
+2. Install dependencies:
+   ```bash
+   npm install
+   ```
 
-      // Remove tseslint.configs.recommended and replace with this
-      tseslint.configs.recommendedTypeChecked,
-      // Alternatively, use this for stricter rules
-      tseslint.configs.strictTypeChecked,
-      // Optionally, add this for stylistic rules
-      tseslint.configs.stylisticTypeChecked,
-
-      // Other configs...
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
+### Running Locally
+To start the development server with Hot Module Replacement (HMR):
+```bash
+npm run dev
 ```
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
-
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
-
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
-      // Enable lint rules for React
-      reactX.configs['recommended-typescript'],
-      // Enable lint rules for React DOM
-      reactDom.configs.recommended,
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
+### Building for Production
+To create an optimized production build in the `dist/` directory:
+```bash
+npm run build
 ```
+
+### Previewing the Build
+To preview the production build locally:
+```bash
+npm run preview
+```
+
+## 🚢 Deployment
+Deployment is handled automatically via GitHub Actions. Any push to the `main` branch triggers a workflow that builds the site and deploys it to the `gh-pages` branch.
+
+---
+*Last Updated: February 8, 2026*
