@@ -16,7 +16,8 @@ The website is a Single Page Application (SPA) with the following tabs:
 3.  **Projects (`/projects`):** Featured media/travel blogs and Waterloo coursework with real Unsplash imagery.
 4.  **Hobbies (`/hobbies`):** Interactive Bento Grid with modals for Anime & Shows, K-pop (NMIXX), Gaming (CS:GO), Sports (Curling), and Awards. Includes a Spotify "Tokyo" playlist preview.
 
-## Recent Updates (Feb 7, 2026)
+## Recent Updates (Feb 8, 2026)
+- **Favicon Update:** Changed the website favicon from the default Vite logo to a custom blue heart SVG.
 - **Home Page Overhaul:** Added Dean's Honours List, Certificate in Japanese Language II (UWaterloo), and a categorized skills section (AI tools, Root-Cause Troubleshooting).
 - **Full Career Sync:** Integrated 8+ roles from Resume and LinkedIn into the Experience timeline.
 - **Projects Revamp:** Featured "Anime & Media Blog" and "Japan Internship Blog" (8 months) with correct links and royalty-free imagery.
@@ -46,4 +47,4 @@ The website is a Single Page Application (SPA) with the following tabs:
 Any push to the `main` branch will trigger the GitHub Actions workflow defined in `.github/workflows/deploy.yml`. The site will be built and deployed to the `gh-pages` branch automatically.
 
 ---
-*Last Updated: February 7, 2026 (Final comprehensive site-wide update)*
+*Last Updated: February 8, 2026 (Favicon update)*
