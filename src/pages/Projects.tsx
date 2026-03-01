@@ -7,7 +7,7 @@ const projects = [
     image: 'https://images.unsplash.com/photo-1528360983277-13d401cdc186?auto=format&fit=crop&q=80&w=600&h=400',
     tags: ['Markdown', 'GitHub', 'Writing', 'Media Analysis'],
     github: 'https://github.com/royaljuggy/blogs',
-    demo: 'https://royaljuggy.github.io/blogs/',
+    demo: 'https://jmeksava.ca/blogs/',
   },
   {
     title: 'Personal Portfolio 2026',
@@ -23,7 +23,7 @@ const projects = [
     image: 'https://images.unsplash.com/photo-1493976040374-85c8e12f0c0e?auto=format&fit=crop&q=80&w=600&h=400',
     tags: ['React', 'Markdown', 'Bootstrap', 'GitHub Actions'],
     github: 'https://github.com/royaljuggy/internship-in-japan',
-    demo: 'https://royaljuggy.github.io/internship-in-japan',
+    demo: 'https://jmeksava.ca/internship-in-japan',
   },
   {
     title: 'TODO List',

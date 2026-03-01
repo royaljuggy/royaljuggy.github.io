@@ -8,6 +8,7 @@ This document tracks the structure and update instructions for your personal por
 - **Animations:** Framer Motion
 - **Icons:** Lucide React
 - **Deployment:** GitHub Actions (to GitHub Pages)
+- **Custom Domain:** jmeksava.ca
 
 ## Site Structure
 The website is a Single Page Application (SPA) with the following tabs:
@@ -15,6 +16,10 @@ The website is a Single Page Application (SPA) with the following tabs:
 2.  **Experience (`/experience`):** Detailed career timeline (Geotab FT, Japan Internship, Waterloo internships, TA roles).
 3.  **Projects (`/projects`):** Featured media/travel blogs and Waterloo coursework with real Unsplash imagery.
 4.  **Hobbies (`/hobbies`):** Interactive Bento Grid with modals for Anime & Shows, K-pop (NMIXX), Gaming (CS:GO), Sports (Curling), and Awards. Includes a Spotify "Tokyo" playlist preview.
+
+## Recent Updates (Feb 28, 2026)
+- **Custom Domain Setup:** Configured the project for `jmeksava.ca`. Added `public/CNAME`, updated `vite.config.ts`, and synchronized all project demo links to the new domain.
+- **Documentation Update:** Updated `README.md` and `gemini.md` to reflect the new primary URL.
 
 ## Recent Updates (Feb 8, 2026)
 - **Projects Refinement:** Moved "Personal Portfolio 2026" to the second position and updated its demo link to point to the GitHub repository.
@@ -49,4 +54,4 @@ The website is a Single Page Application (SPA) with the following tabs:
 Any push to the `main` branch will trigger the GitHub Actions workflow defined in `.github/workflows/deploy.yml`. The site will be built and deployed to the `gh-pages` branch automatically.
 
 ---
-*Last Updated: February 8, 2026 (Reordered projects and updated portfolio link)*
+*Last Updated: February 28, 2026 (Configured custom domain jmeksava.ca)*

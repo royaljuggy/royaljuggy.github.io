@@ -4,7 +4,7 @@ A modern, responsive personal portfolio website built with React 19, Vite, and T
 
 ## 🚀 Live Site
 The site is automatically deployed to GitHub Pages and can be accessed at:
-[royaljuggy.github.io](https://royaljuggy.github.io)
+[jmeksava.ca](https://jmeksava.ca)
 
 ## 🛠️ Tech Stack
 - **Frontend Framework:** React 19 (Vite)

@@ -4,5 +4,5 @@ import react from '@vitejs/plugin-react'
 // https://vite.dev/config/
 export default defineConfig({
   plugins: [react()],
-  base: '/', // Set to '/' for root domain hosting (royaljuggy.github.io)
+  base: '/', // Set to '/' for root domain hosting (jmeksava.ca)
 })
