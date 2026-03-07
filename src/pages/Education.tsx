@@ -1,5 +1,5 @@
 import { motion } from 'framer-motion';
-import { GraduationCap, BookOpen, Award } from 'lucide-react';
+import { GraduationCap, BookOpen } from 'lucide-react';
 
 const Education = () => {
   return (
