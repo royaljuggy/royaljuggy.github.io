@@ -32,7 +32,7 @@ const Home = () => {
               focusing on driver safety and big-data analysis.
             </p>
             <p>
-              I've lived and worked in Japan and hold a <span className="text-gray-900 font-medium">Certificate in Japanese Language II</span> from the University of Waterloo. I'm always down to talk about music and K-pop!
+              I've lived and worked in Japan and hold a <span className="text-gray-900 font-medium">Certificate in Japanese Language II</span> from the University of Waterloo. I'm always down to talk about K-pop, Anime, or the NBA/NHL!
             </p>
           </div>
           

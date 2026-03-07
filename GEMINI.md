@@ -15,7 +15,13 @@ The website is a Single Page Application (SPA) with the following tabs:
 1.  **Home (`/`):** Personal intro, professional summary (Geotab/Tokyo), academic achievements (Dean's Honours, Japanese Certificate), and a comprehensive, categorized Skills & Expertise section.
 2.  **Experience (`/experience`):** Detailed career timeline (Geotab FT, Japan Internship, Waterloo internships, TA roles).
 3.  **Projects (`/projects`):** Featured media/travel blogs and Waterloo coursework with real Unsplash imagery.
-4.  **Hobbies (`/hobbies`):** Interactive Bento Grid with modals for Anime & Shows, K-pop (NMIXX), Gaming (CS:GO), Sports (Curling), and Awards. Includes a Spotify "Tokyo" playlist preview.
+4.  **Education (`/education`):** Academic journey featuring University of Waterloo and High School details, certifications, and club involvement.
+5.  **Hobbies (`/hobbies`):** Interactive Bento Grid with modals for Anime & Shows (Re:Zero, Fate), Gaming (CS:GO, LoL, FGO), Collecting (K-pop photocards, figurines, Pokemon TCG), Music (NMIXX, Tokyo playlist), Sports (Curling, Raptors), and Awards (DECA, Startup Brampton). Includes Spotify embeds.
+
+## Recent Updates (Mar 7, 2026)
+- **Hobbies Refinement:** Manually updated with specific details on CS:GO inventory value, favorite anime series, extensive collection (photocards/figurines), and competitive curling achievements.
+- **New Education Tab:** Created a new `Education` page and integrated it into the navigation between Projects and Hobbies.
+- **Home Page Blurb:** Updated the bio text to include Anime and NBA/NHL interests, replacing the specific mention of music.
 
 ## Recent Updates (Feb 28, 2026)
 - **Custom Domain Setup:** Configured the project for `jmeksava.ca`. Added `public/CNAME`, updated `vite.config.ts`, and synchronized all project demo links to the new domain.
@@ -46,6 +52,10 @@ The website is a Single Page Application (SPA) with the following tabs:
 - Modify the `projects` array.
 - Use Unsplash URLs for high-quality, royalty-free imagery.
 
+### Education (`src/pages/Education.tsx`)
+- Update the bio text or degrees in the respective `section` tags.
+- **Link Maintenance:** The Dean's Honours List links to `https://uwaterloo.ca/math/class-winter-2025`. **Verify this link's health periodically.**
+
 ### Hobbies (`src/pages/Hobbies.tsx`)
 - Edit the `hobbies` array. 
 - Each object supports `details` (array for modal), `tags`, `stat`, and `badge`.
@@ -54,4 +64,4 @@ The website is a Single Page Application (SPA) with the following tabs:
 Any push to the `main` branch will trigger the GitHub Actions workflow defined in `.github/workflows/deploy.yml`. The site will be built and deployed to the `gh-pages` branch automatically.
 
 ---
-*Last Updated: February 28, 2026 (Configured custom domain jmeksava.ca)*
+*Last Updated: March 7, 2026 (Added Education tab and updated home page bio)*

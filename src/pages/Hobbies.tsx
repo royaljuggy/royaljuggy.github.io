@@ -18,11 +18,11 @@ const Hobbies = () => {
       id: 'anime',
       title: 'Anime & Shows',
       type: 'Anime',
-      description: "Deeply into shows like Re:Zero, Violet Evergarden, and the Fate series.",
+      description: "Faves include Re:Zero, Violet Evergarden, and the Fate series",
       details: [
-        "I'm a huge fan of Re:Zero, Violet Evergarden, and the Fate series.",
-        "I love the thrill of finding 'hidden gems'; shows that aren't mainstream but have amazing stories.",
-        "Favorite genres include Isekai, Action, and Romance.",
+        "Re:Zero, Violet Evergarden, and the Fate series always hold a dear spot in my heart",
+        "I love naturally finding 'hidden gems'; shows that aren't mainstream but have amazing stories and production-quality",
+        "My favorite genres include Isekai, Action, and Romance.",
         "Always down to trade MyAnimeList profiles if you're interested!"
       ],
       color: 'pink',
@@ -36,10 +36,10 @@ const Hobbies = () => {
       type: 'Gaming',
       description: 'Mainly playing CS:GO, League of Legends, and Fate/Grand Order.',
       details: [
-        "My CS:GO inventory is valued at over $3,000 CAD; I spent a lot of time in the trading scene.",
-        "I play League of Legends regularly, though I try to keep it casual for my sanity.",
-        "Pokémon GO is my favorite way to make daily walks more interesting.",
-        "Fate/Grand Order is my go-to gacha game for when I need that Fate fix."
+        "My CS:GO inventory is valued at over $3,000 CAD; about 50/50 on unboxing and direct-purchases",
+        "I play League of Legends regularly, though I try to stay casual for my sanity",
+        "Pokémon GO is my excuse to go on a daily walk",
+        "Fate/Grand Order is my go-to gacha game, when I have time!"
       ],
       color: 'purple',
       icon: Gamepad2,
@@ -52,10 +52,10 @@ const Hobbies = () => {
       type: 'Collecting',
       description: 'Rare Pokemon cards, K-pop photocards, and anime figurines.',
       details: [
-        "I love collecting rare K-pop photocards and have a large album collection.",
-        "I collect Pokemon TCG cards, focusing on rare and interesting finds.",
-        "I have a large collection of high-quality anime figurines that I've built up over the years.",
-        "There's something amazing about finding a rare item and adding it to the shelf."
+        "I love collecting rare K-pop photocards and have a large album collection",
+        "I collect Pokemon TCG cards, mostly of characters I like",
+        "I have the master set of the Japanese Crimson Haze set!",
+        "I have a large collection of high-quality anime figurines that I've built up over a decade"
       ],
       color: 'amber',
       icon: Library,
@@ -70,8 +70,7 @@ const Hobbies = () => {
       details: [
         "My favorite group of all time is NMIXX; I was in the top 3,000 listeners globally on Spotify in 2025!",
         "I've traveled for concerts: IVE (Chicago), aespa (Chicago), NMIXX (Tokyo & Toronto), TWICE (Orlando), and LE SSERAFIM (Chicago).",
-        "I love collecting rare K-pop photocards and have a large album collection.",
-        "My 'Tokyo' playlist is a 55+ hour mix of K-pop, J-pop, and Anime hits.",
+        "My 'Tokyo' playlist is a 55+ hour mix of K-pop, J-pop, and Anime hits",
         "I'm always happy to share some recommendations if you're interested in the scene!"
       ],
       color: 'orange',
@@ -83,14 +82,14 @@ const Hobbies = () => {
     },
     {
       id: 'sports',
-      title: 'Curling Captain',
+      title: 'Player & Fan',
       type: 'Sports',
       description: '2x Provincial Qualifier and former High School Captain.',
       details: [
-        "I played as both vice-captain and captain for my high school curling team.",
-        "We won regionals and qualified for the provincial level twice.",
-        "I'm a massive Toronto Raptors fan; never miss a game if I can help it.",
-        "Being a Leafs fan is a tragic tale, but I'm still here through thick and thin."
+        "I played as both vice-captain and captain for my high school curling team",
+        "We won regionals and qualified for the provincial level twice",
+        "I'm a massive Toronto Raptors fan; never miss a game if I can help it",
+        "Being a Leafs fan is a tragic tale"
       ],
       color: 'blue',
       icon: Trophy,
@@ -103,10 +102,10 @@ const Hobbies = () => {
       type: 'Awards',
       description: 'Achievements from DECA and Startup Brampton.',
       details: [
-        "Placed Top 18 in all of Ontario for DECA Personal Financial Literacy in 2020.",
-        "Earned Top 3 in the Peel Region for DECA in 2019.",
-        "Won 2nd Place at Peel Startup Brampton for my entrepreneurial pitch.",
-        "Consistently balanced these activities while taking a full 5-course load."
+        "Placed Top 18 in all of Ontario for DECA Personal Financial Literacy in 2020",
+        "Earned Top 3 in the Peel Region for DECA in 2019",
+        "Won 2nd Place at Peel Startup Brampton for an entrepreneurial pitch",
+        "Consistently balanced these activities while taking a full 5-course load in school"
       ],
       color: 'gray',
       icon: Award,
